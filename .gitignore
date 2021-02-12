@@ -1,0 +1,8 @@
+archive
+node_modules
+lib
+.vscode
+.DS_Store
+*.log
+*.cache
+*.tsbuildinfo
