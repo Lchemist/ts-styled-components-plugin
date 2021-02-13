@@ -1,6 +1,6 @@
 {
   "name": "ts-styled-components-plugin",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "TypeScript transformer plugin that adds minification support to styled-components",
   "keywords": [
     "typescript-plugin",
