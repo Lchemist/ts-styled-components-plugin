@@ -28,7 +28,7 @@ const log = (): void => {
 }
 
 const commentRegex = /((?<!(http:|https:))\/\/.*)|(\/\*[^!][\s\S]*?\*\/)/g
-const unnecessaryWhitespaceRegex = /(?<!\w)\s+|\s+(?=[{}>,;])/g
+const unnecessaryWhitespaceRegex = /(?<![\w}])\s+|\s+(?=[{}>,;])/g
 const expressionPlaceholderRegex = /\${EXP\d+}/g
 const specialCssValueRegex = /(?:(['"])((\\\1|[\s\S])*?)\1)|(calc|url)\([\s\S]*?\)(?=;)/g
 
